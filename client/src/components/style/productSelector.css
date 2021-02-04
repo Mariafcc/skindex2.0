@@ -1,0 +1,107 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pname {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+.pinput{
+    border-radius: 10%;
+    background-color: rgb(218, 235, 238);
+}
+
+.ptype{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+.selector{
+    border-radius: 10%;
+    background-color: rgb(218, 235, 238);
+    height: 30px;
+}
+
+.selectorBtn{
+    background-color: rgb(218, 235, 238);
+    border-radius: 10%;
+    
+}
+
+img{
+    width: 100%;
+}
+
+#type-image{
+    width: 80px;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(170, 204, 202);
+    border-width: 2px;
+}
+
+.table-card{
+    max-width: 70%;
+}
+@media only screen and (max-width: 815px) {
+    .table-card {
+      max-width: 90%;
+    }
+  }
+@media only screen and (max-width: 420px) {
+    .table-card {
+      max-width: 100%;
+    }
+  }
+
+  #product-table{
+      vertical-align: middle;
+  }
+
+  #routine-card{
+    border-color: black;
+  }
+  
+  @media only screen and (min-width: 815px) {
+    #routine-card {
+      padding-right: 4px !important;
+      padding-left: 4px !important;
+      border-color: black;
+      max-width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    #routine-card {
+      padding-right: 4px !important;
+      padding-left: 4px !important;
+      border-color: black;
+    }
+
+    
+  }
+
+#table-col{
+    padding-bottom: 0px;
+}
+
+#icon-btn{
+    background-color: white;
+    border: none;
+}
+
+#icon-btn:hover{
+    background-color: antiquewhite;
+}
+
+#fa-images{
+    color: #93bfb7;
+    padding: 8px;
+}
+
